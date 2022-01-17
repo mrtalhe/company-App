@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"), url("../fonts/Vazir.woff2") format("woff2"), url("../fonts/Vazir.woff") format("woff"), url("../fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+
+
+body{
+    direction: rtl;
+  background-color:#f7f7f7;
+  font-family: 'Vazir';
+}
+
+
+.leftlinks{
+  margin-right: auto !important; 
+}
+
+.sectionOne{
+  background: #8360c3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  height: 95vh;
+
+}
+
+.mynav{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 4rem;
+}
+.nav-link:hover{
+  color: #325288 !important ;
+}
+.bgcolor { background-color:#325288; } 
+.forecolor { color:#325288; } 
+.bordercolor { border:3px solid #325288; }
+
+.box{
+  box-shadow: rgba(206, 49, 49, 0.25) 0px 6px 12px -2px, rgba(172, 45, 45, 0.3) 0px 3px 7px -3px;
+}
+
+
+.header-content{
+  flex-direction: column;
+display: flex;
+
+  justify-content: center;
+}
+
+
+
