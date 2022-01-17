@@ -31,16 +31,24 @@ body{
   border-radius: 4rem;
 }
 .nav-link:hover{
-  color: #325288 !important ;
+  color: #011f4b !important ;
 }
-.bgcolor { background-color:#325288; } 
-.forecolor { color:#325288; } 
-.bordercolor { border:3px solid #325288; }
+.bgcolor { background-color:#011f4b; } 
+.forecolor { color:#011f4b; } 
+.bordercolor { border:3px solid #011f4b; }
 
 .box{
   box-shadow: rgba(206, 49, 49, 0.25) 0px 6px 12px -2px, rgba(172, 45, 45, 0.3) 0px 3px 7px -3px;
 }
 
+
+.fw-title{
+  font-weight: 800;
+}
+
+.fw-text{
+  font-size: 1.1rem;
+}
 
 .header-content{
   flex-direction: column;
@@ -50,4 +58,27 @@ display: flex;
 }
 
 
+.sectionTwo{
+  
+}
+
+.box{
+  box-shadow: rgba(161, 46, 255, 0.19) 0px 10px 20px, rgba(163, 82, 255, 0.23) 0px 6px 6px;}
+.service:hover{
+  box-shadow: rgba(0, 4, 255, 0.25) 0px 6px 12px -2px, rgba(5, 91, 252, 0.3) 0px 3px 7px -3px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .sectionOne {
+    height: 30rem; }
+  
+  }
+
+  @media only screen and (max-width: 500px) {
+ .header-content{
+   margin-top: 25%;
+ }
+    
+    }
 
