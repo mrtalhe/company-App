@@ -20,7 +20,7 @@ body{
   background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  height: 95vh;
+  height: 100vh;
 
 }
 
@@ -34,7 +34,7 @@ body{
 
 
 .bgcolor { background-color:#279AD3; } 
-.forecolor { color:#279AD3; } 
+.forecolor { color:#007fbe; } 
 .bordercolor { border:3px solid #279AD3; }
 
 
@@ -109,3 +109,14 @@ padding-bottom: 8rem;
       
       }
     }
+
+
+.bgg{
+  background-color:  #0153a0;
+}
+  
+
+.icon-size{
+  font-size: x-large;
+}
+
