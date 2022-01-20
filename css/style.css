@@ -120,3 +120,25 @@ padding-bottom: 8rem;
   font-size: x-large;
 }
 
+.blog-img{
+  height: 18rem;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .blog-items{
+    display: flex;
+ 
+
+    justify-content: center;
+
+  }
+      }
+
+      .btn-blog{
+        background-color:  #0153a0;
+        color: white
+        ;
+      }
+
