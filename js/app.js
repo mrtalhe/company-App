@@ -1,4 +1,5 @@
 // Example starter JavaScript for disabling form submissions if there are invalid fields
+new WOW().init();
 (function () {
     'use strict'
   
@@ -22,4 +23,8 @@
 
 
   $('.carousel').carousel()
+
+
+
+
 

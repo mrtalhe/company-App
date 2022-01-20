@@ -29,7 +29,7 @@ body{
   border-radius: 4rem;
 }
 .nav-link:hover{
-  color: #003496 !important ;
+  color: #0035c7 !important ;
 }
 
 
@@ -138,7 +138,14 @@ padding-bottom: 8rem;
 
       .btn-blog{
         background-color:  #0153a0;
-        color: white
+        color: white;
+
         ;
       }
 
+
+
+.socialimg{
+  display: flex;
+  flex-direction: row;
+}
